@@ -14,7 +14,7 @@ public class Main {
             int fatA = scanner.nextInt();
             System.out.println("Digite o segundo número ");
             int fatB = scanner.nextInt();
-            System.out.println("Digite a operação desejada: \n1: Soma.\n2: Subtracao\n3: Multiplicacao.\n4: Divisao (Cuidado! Não divida por zero, ou... nem queira saber!).\n5: Quero sair dessa bosta!");
+            System.out.println("Digite a operação desejada: \n1: Soma.\n2: Subtracao\n3: Multiplicacao.\n4: Divisao (Cuidado! Não divida por zero, ou... nem queira saber!).\n5: Quero sair dessa calculadora imediatamente!");
             int uc = scanner.nextInt();
             Calculadora calc = new Calculadora();
             if (uc == 1) {
